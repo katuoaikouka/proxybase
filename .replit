@@ -1,0 +1,8 @@
+modules = ["nodejs-20"]
+run = "npm start"
+
+[nix]
+channel = "stable-23_11"
+
+[hints]
+suggested_file = "server.js"
