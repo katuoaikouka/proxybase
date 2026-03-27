@@ -4,5 +4,5 @@ run = "npm start"
 [nix]
 channel = "stable-23_11"
 
-[hints]
-suggested_file = "server.js"
+# エラーの原因になりやすい hints セクションを削除、または以下のように単純化します
+entrypoint = "server.js"
